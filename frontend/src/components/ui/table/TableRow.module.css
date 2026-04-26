@@ -1,0 +1,9 @@
+/* CSS module dla TableRow */
+.tableRow {
+    border-bottom: 1px solid #e0c9a6;
+    transition: background 0.2s;
+}
+
+.tableRow:hover {
+    background: #f7e7d3;
+}

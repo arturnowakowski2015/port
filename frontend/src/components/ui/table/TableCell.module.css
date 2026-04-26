@@ -1,0 +1,5 @@
+/* CSS module dla TableCell */
+.tableCell {
+    padding: 1rem;
+    vertical-align: middle;
+}

@@ -1,0 +1,7 @@
+/* CSS module dla DialogHeader */
+.dialogHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    text-align: left;
+}

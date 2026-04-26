@@ -1,0 +1,28 @@
+/* CSS module dla DialogContent */
+.dialogContent {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 50;
+    width: 95vw;
+    max-width: 32rem;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    border: 1px solid #e0c9a6;
+    background: #fff;
+    padding: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.13);
+}
+
+.closeBtn {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    border-radius: 4px;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.closeBtn:hover {
+    opacity: 1;
+}

@@ -1,0 +1,22 @@
+/* CSS module dla Textarea */
+.textarea {
+    min-height: 80px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #e0c9a6;
+    background: #fff;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    color: #2d221a;
+    outline: none;
+    resize: vertical;
+}
+
+.textarea:focus {
+    border-color: #e67c1a;
+    box-shadow: 0 0 0 2px #e67c1a33;
+}
+
+.textarea::placeholder {
+    color: #bfa77a;
+}

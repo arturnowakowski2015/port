@@ -1,0 +1,7 @@
+/* CSS module dla CardHeader */
+.cardHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1.5rem;
+}
