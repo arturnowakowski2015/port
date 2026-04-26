@@ -1,0 +1,21 @@
+/* CSS module dla Input */
+.input {
+    height: 40px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #e0c9a6;
+    background: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #2d221a;
+    outline: none;
+}
+
+.input:focus {
+    border-color: #e67c1a;
+    box-shadow: 0 0 0 2px #e67c1a33;
+}
+
+.input::placeholder {
+    color: #bfa77a;
+}

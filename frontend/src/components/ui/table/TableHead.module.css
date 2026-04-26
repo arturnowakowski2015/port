@@ -1,0 +1,9 @@
+/* CSS module dla TableHead */
+.tableHead {
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 600;
+}

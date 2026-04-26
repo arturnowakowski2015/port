@@ -1,0 +1,50 @@
+/* Przykładowy CSS module dla Button */
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+    outline: none;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    cursor: pointer;
+}
+
+.buttonPrimary {
+    background: #e67c1a;
+    color: #fff;
+}
+
+.buttonSecondary {
+    background: #f7e7d3;
+    color: #7a4c13;
+}
+
+.buttonDestructive {
+    background: #c00;
+    color: #fff;
+}
+
+.buttonOutline {
+    background: #fff;
+    border: 1px solid #e0c9a6;
+    color: #7a4c13;
+}
+
+.buttonGhost {
+    background: transparent;
+    color: #7a4c13;
+}
+
+.buttonSm {
+    font-size: 0.95rem;
+    padding: 0.3rem 0.8rem;
+}
+
+.buttonLg {
+    font-size: 1.1rem;
+    padding: 0.7rem 1.6rem;
+}
